@@ -1,12 +1,14 @@
 1 - git clone git@github.com:osmanylima/roots.git
 
-2 - composer create-project roots/sage your-theme-name
+*Navegue até a pasta (cd web/wp/wp-content/themes/)
+
+2 - composer create-project roots/sage studio084
 
 *Navegue até a pasta src e execute o comando composer install*
 
 3 - Crie uma cópia do .env.example com o nome .env
 
-*Navegue até a pasta web/app/themes/mobister*
+*Navegue até a pasta web/wp/wp-content/themes/*
 
 4 - Execute os comandos yarn install e composer install
 
