@@ -1,18 +1,18 @@
 1 - git clone git@github.com:osmanylima/roots.git
 
+*Navegue até a pasta src e execute o comando*
+
+- composer install
+
 *Navegue até a pasta (cd web/wp/wp-content/themes/)
 
-2 - composer create-project roots/sage studio084
+2 - composer create-project roots/sage nome-tema
 
-*Navegue até a pasta src e execute o comando composer install*
+3 - Entre na pasta do tema e execute:
 
-3 - Crie uma cópia do .env.example com o nome .env
+- yarn && yarn build
 
-*Navegue até a pasta web/wp/wp-content/themes/*
-
-4 - Execute os comandos yarn install e composer install
-
-5 - Certifique-se de aumentar as seguites variáveis do php:
+4 - Certifique-se de aumentar as seguites variáveis do php em wp-config e personalizar os dados do banco de dados:
 
 - define('WP_MEMORY_LIMIT', '64M');
 
@@ -22,7 +22,7 @@
 
 *Configurar o plugin WP-SMTP para disparar os emails dos formulários:*
 
-6 - ADMIN > Configurações -> WP SMTP
+5 - ADMIN > Configurações -> WP SMTP
 
 *Build commands*
 
